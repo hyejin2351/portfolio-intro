@@ -1,0 +1,11 @@
+* {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.typewrite {
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: lowercase;
+}
