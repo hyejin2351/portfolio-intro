@@ -188,7 +188,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-  font: 500 15px/100px 'Noto Sans KR', sans-serif;
+  font: 500 16px/100px 'Noto Sans KR', sans-serif;
   text-transform: uppercase;
   color: #222222;
   padding: 0px;
@@ -394,7 +394,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-left-3.png) no-repeat scroll center center;
+  background: #F6F6FC url(../img/banner/home-left-3.png) no-repeat scroll left center;
   background-size: cover;
 }
 
@@ -403,7 +403,8 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .home_left_img {
-  padding-top: 100px;
+  padding-top: 130px;
+  padding-bottom: 50px;
 }
 
 .home_banner_area .banner_inner .home_left_img img {
@@ -430,7 +431,7 @@ button:focus {
 
 .home_banner_area .banner_inner .banner_content h2 {
   margin-top: 0px;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   font-family: "Heebo", sans-serif;
   line-height: 54px;
@@ -3396,13 +3397,14 @@ h6 {
 }
 
 .banner_btn {
-  padding: 0px 42px;
+  margin-top: 25px;
+  padding: 0px 30px;
   line-height: 50px;
-  background-image: linear-gradient(to right, #8490ff 0%, #62bdfc 48%, #8490ff 100%);
+  background: #4D4CAD;
   background-size: 200% auto;
   color: #fff;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 13px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
