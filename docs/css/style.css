@@ -3586,6 +3586,10 @@ h6 {
 /*----------------------------------------------------*/
 /* Welcome Area css
 ============================================================================================ */
+.welcome_area {
+  background: url(../img/banner/sec2_back.png) no-repeat scroll top center ;
+}
+
 .welcome_inner .welcome_img {
   background: #eeeeee;
   margin-left: 40px;
