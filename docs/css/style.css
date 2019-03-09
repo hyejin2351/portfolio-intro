@@ -325,6 +325,11 @@ button:focus {
   .header_area.white_menu .navbar .navbar-brand img+img {
     display: inline-block;
   }
+
+	.home_banner_area .banner_inner { /* 992px 이상 부터 banner_inner에 적용되는 패딩값 */
+		padding: 150px 0px 0px;
+	}
+  
 }
 
 @media (max-width: 991px) {
@@ -335,6 +340,11 @@ button:focus {
   .header_area.white_menu .navbar .navbar-brand img+img {
     display: none;
   }
+
+	.home_banner_area .banner_inner { /* 992px 이하의 banner_inner에 적용되는 패딩값 */
+		padding: 50px 0px 0px;
+	}
+	
 }
 
 .header_area.white_menu .navbar .nav .nav-item .nav-link {
@@ -392,31 +402,20 @@ button:focus {
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
-.home_banner_area {
+.home_banner_area { /* 비주얼 영역의 텍스트와 이미지를 모두 감싸는 div */
   z-index: 1;
-  background: #F6F6FC url(../img/banner/home-left-3.png) no-repeat scroll left center;
-  background-size: cover;
 }
 
-.home_banner_area .banner_inner {
+.home_banner_area .banner_inner .home_right_img img { /* 비주얼 영역의 이미지 비율 */
   width: 100%;
 }
 
-.home_banner_area .banner_inner .home_left_img {
-  padding-top: 130px;
-  padding-bottom: 50px;
-}
-
-.home_banner_area .banner_inner .home_left_img img {
-  width: 100%;
-}
-
-.home_banner_area .banner_inner .col-lg-6 {
+.home_banner_area .banner_inner .col-lg-5 { /* 비주얼 영역의 텍스트 배치 */
   vertical-align: middle;
   align-self: center;
 }
 
-.home_banner_area .banner_inner .banner_content {
+.home_banner_area .banner_inner .banner_content { /* 비주얼 영역의 텍스트 기본 스타일 */
   text-align: left;
   color: #222222;
 }
@@ -3397,10 +3396,10 @@ h6 {
 }
 
 .banner_btn {
-  margin-top: 25px;
+  margin-top: 30px;
   padding: 0px 30px;
   line-height: 50px;
-  background: #4D4CAD;
+  background: #FC252C;
   background-size: 200% auto;
   color: #fff;
   display: inline-block;
@@ -3447,7 +3446,7 @@ h6 {
   display: inline-block;
 }
 
-.blog_btn:hover {
+.blog_btn:hover { 
   background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -3667,9 +3666,10 @@ h6 {
   border: 1px solid #eeeeee;
   padding-left: 5px;
   padding-right: 5px;
-  box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.2);
+  box-shadow: 0px 20px 20px 0px rgba(67, 81, 211, 0.2);
 }
 
+/* 툴 능력치 */
 .tools_expert .skill_main .skill_item .progress .progress-bar {
   width: 0%;
   transition: width .6s ease;
@@ -3677,9 +3677,9 @@ h6 {
   border-radius: 5px;
   vertical-align: middle;
   align-self: center;
-  background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background-image: -moz-linear-gradient(0deg, #8490ff 0%, #4D4CAD 100%);
+  background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #4D4CAD 100%);
+  background-image: -ms-linear-gradient(0deg, #8490ff 0%, #4D4CAD 100%);
 }
 
 /* End Welcome Area css
