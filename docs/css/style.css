@@ -80,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
 }
 
@@ -184,7 +184,8 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item {
-  margin-right: 45px;
+  margin-right: 60px;
+  font-weight: bold;
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
@@ -210,6 +211,16 @@ button:focus {
   box-shadow: none;
   margin: 0px;
   background: #fff;
+}
+
+.header_area .logo_h span {
+  vertical-align: middle;
+  margin-left: 10px;
+  letter-spacing: 2px;
+}
+
+.header_area .logo_h img {
+  width: 40px;
 }
 
 @media (min-width: 992px) {
@@ -268,7 +279,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: #8490ff;
+  background: #FD5156;
   color: #fff;
 }
 
@@ -420,31 +431,36 @@ button:focus {
   color: #222222;
 }
 
-.home_banner_area .banner_inner .banner_content h5 {
-  font-size: 14px;
-  font-family: 'Noto Sans KR', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2.1px;
-  margin-bottom: 20px;
-}
-
 .home_banner_area .banner_inner .banner_content h2 {
-  margin-top: 0px;
-  font-size: 40px;
+  color: #333333;
+  font-size: 57px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   line-height: 54px;
   text-transform: uppercase;
+}
+
+.home_banner_area .banner_inner .banner_content h2 span {
+  display: block;
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 20px;
 }
 
 .home_banner_area .banner_inner .banner_content p {
   color: #777777;
   font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
   max-width: 680px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 26px;
   margin: 0px auto 45px;
+}
+
+.home_banner_area .banner_inner .banner_content a {
+  color: #ffffff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
 }
 
 .home_banner_area .banner_inner .banner_content .banner_map_img {
@@ -3396,7 +3412,6 @@ h6 {
 }
 
 .banner_btn {
-  margin-top: 30px;
   padding: 0px 30px;
   line-height: 50px;
   background: #FC252C;
@@ -3411,6 +3426,7 @@ h6 {
 }
 
 .banner_btn:hover {
+  background: #AF080E;
   background-position: right center;
   color: #fff;
 }
